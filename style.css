@@ -1,0 +1,189 @@
+.lineargrad-sec, .lineargrad1-sec, .lineargrad2-sec, .radsize-sec, .conicgrad-sec, .conicchart-sec{
+	display:flex;
+	flex-wrap:nowrap;
+}
+
+
+
+.grad1-linear{
+	background-image:linear-gradient(green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad2-linear{
+	background-image:linear-gradient(to left, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad3-linear{
+	background-image:linear-gradient(to right, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad4-linear{
+	background-image:linear-gradient(to bottom right, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad5-lineardeg{
+	background-image:linear-gradient(0deg, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad6-lineardeg{
+	background-image:linear-gradient(90deg, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad7-lineardeg{
+	background-image:linear-gradient(180deg, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad8-lineardeg{
+	background-image:linear-gradient(-90deg, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad9{
+	height: 200px;
+	background-image: linear-gradient(to right, rgba(0, 255, 0, 0), rgba(0,255,0,1));
+	margin:10px;
+	width:50%
+}
+
+.grad10{
+	height: 200px;
+	background-image: repeating-linear-gradient(blue 10%, orange 15%, green 20%);
+	margin:10px;
+	width:50%;
+}
+
+.grad1-rad{
+	background-image:radial-gradient(blue, green, maroon);
+	height:300px;
+	margin:10px;
+}
+
+.grad11-rad{
+	background-image:repeating-radial-gradient(blue 10%, green 15%, maroon 20%);
+	height:300px;
+	margin:10px;
+}
+	
+.grad2-rad{
+	background-image:radial-gradient(blue 5%, green 10%, maroon 40%);
+	height:300px;
+	margin:10px;
+}
+
+.grad3-rad{
+	background-image:radial-gradient(circle, blue 5%, green 15%, maroon 30%);
+	height:300px;
+	margin:10px;
+}
+
+.grad4-radsize{
+	background-image:radial-gradient(farthest-corner at 40% 50%, blue, green, maroon);
+	width:30%;
+	height:300px;
+	margin:10px;	
+}
+
+.grad5-radsize{
+	background-image:radial-gradient(closest-corner at 40% 50%, blue, green, maroon);
+	width:30%;
+	height:300px;
+	margin:10px;	
+}
+
+.grad6-radsize{
+	background-image:radial-gradient(farthest-side at 40% 50%, blue, green, maroon);
+	width:30%;
+	height:300px;
+	margin:10px;	
+}
+
+.grad7-radsize{
+	background-image:radial-gradient(closest-side at 40% 50%, blue, green, maroon);
+	width:30%;
+	height:300px;	
+	margin:10px;
+}
+
+.grad1-conic{
+	background-image:conic-gradient(blue, green, maroon);
+	height:200px;
+	margin:10px;
+	width:30%;
+}
+
+.grad2-conic{
+	background-image:conic-gradient(blue, green, maroon, yellow, red);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad3-conic{
+	background-image:conic-gradient(blue 40deg, green 150deg, maroon 220deg);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+
+.grad4-conic{
+	background-image:conic-gradient(from 45deg, blue, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad5-conic{
+	background-image:conic-gradient(at 40% 30%, blue, green, maroon);
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad6-conic{
+	background-image:conic-gradient(blue, green, maroon, yellow, red);
+	height:200px;
+	width:30%;
+	margin:10px;
+	border-radius:50%;
+}
+
+
+.grad7-conic{
+	background-image:conic-gradient(blue 0deg, blue 45deg, green 45deg, green 90deg, maroon 90deg, maroon 180deg, yellow 180deg, yellow 270deg, red 270deg, red 360deg);
+	border-radius:50%;
+	height:200px;
+	width:30%;
+	margin:10px;
+}
+
+.grad8-conic{
+	background-image:repeating-conic-gradient(blue 10%, green 20%, maroon 30%);
+	border-radius:50%;
+	height:200px;
+	width:30%;
+	margin:10px;
+}
